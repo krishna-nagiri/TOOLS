@@ -1,0 +1,14 @@
+#!/bin/bash
+	#This file is to install the command called "htop" using bash script
+ 
+command=/usr/bin/at
+if [ -f $command ]
+then
+	echo " $command found . No need to install. "
+else 
+	echo " Let's install the $command. "
+	echo " The exit code is : $?"
+	sudo apt update && sudo apt install -y at
+
+fi
+$command
