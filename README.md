@@ -1,19 +1,25 @@
-This Repository contains tools that I created myself to quench my curiosity and tools that I found interesting (replicated by me)
-! 1. command_ins_tool     :  << USAGE >>
-                              nano command_ins_tool
-                              enter the name of the command you want to check/run/install 
-                              at "command=/usr/bin/<<___>>" this line of the code.
-                              press ctrl + O to over-write and then ctrl + X to exit.
-                              To run the tool
-                              (make sure you've provided the executing privilages to command_ins_tool using chmod)
-                              sudo ./command_ins_tool
-                              <<>>
-                            << DESCRIPTION >>
-                             This is the first tool that i've created for myself to install command (in my linux distro) 
-                             by passing the name of the command as input in the code
-                             itself.
-                             The code worked fine and istalled the commands like "htop","at" etc...
-                             This tool can will be pretty handy, it can check the existance of the
-                             command itself and install it if it couldn't find one.
-                             
-                             
+# My Tools Repository
+
+This repository contains a collection of tools that I created to quench my curiosity, as well as tools I found interesting and replicated. These tools are designed to make certain tasks easier and are perfect for anyone who wants to explore or automate simple processes.
+
+## Tools in this Repository
+
+### 1. `command_ins_tool`
+
+#### Description
+
+`command_ins_tool` is a simple utility I created to install commands in my Linux distro. It allows you to specify the name of the command you want to check, run, or install directly within the code. If the command doesn't exist, the tool will automatically install it for you.
+
+This tool has proven useful for installing popular commands like `htop`, `at`, and more. It's designed to be both convenient and practical by checking for the existence of a command and installing it if necessary.
+
+#### Features
+- Check if a command exists on your system
+- Automatically install missing commands
+- Simplifies the installation process
+
+#### Installation & Usage
+
+1. **Edit the Script**  
+   Open the script using your favorite text editor:
+   ```bash
+   nano command_ins_tool
